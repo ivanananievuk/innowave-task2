@@ -1,0 +1,675 @@
+body{
+    background-color: white;
+    color: white;
+    background-image: url("./Musica/bg-pic.png");
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+
+    margin: 0px;
+    padding: 0px;
+  
+
+}
+
+
+
+.bar{
+    display: flex;
+    width: 100%;
+    padding-bottom: 0px;
+    color: black;
+    
+    
+}
+
+.the-attributes{
+    align-items: center;
+    width: 90%;
+    display: flex;
+    justify-content: end;
+    gap: 2em;
+    margin-right: 20px;
+
+}
+
+.the-attributes p{
+    cursor: pointer;
+}
+
+.the-logo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    cursor: pointer;
+    width: 10%;
+    margin-left: 20px;
+}
+
+
+
+.slider-main{
+    margin-top: 10px;
+}
+.mid-wrapper{
+    height: 500px;
+    background-color: black;
+    margin-left: 20px;
+    margin-right: 20px;
+    color: black;
+    display: flex;
+}
+
+.the-slider-itself{
+
+    width: 98%;
+    height: 96%;
+    margin: auto;
+    background-color: green;
+  /**  background-image: url(./slider/img1.jpg);*/
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+
+}
+
+
+
+.the-text-box{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    width: 100%;
+    height: 40px;
+    background-color: red;
+    opacity: 0.7;
+}
+
+.the-text-box p{
+    margin-left: 30px;
+    color: white;
+    width: 100%;
+    display: flex;
+    
+}
+
+
+.the-btns{
+
+    width: 94%;
+    position: absolute;
+    margin-bottom: 200px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.btn{
+    justify-content: end;
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 75px;
+    width: 75px;
+    background-color: gray;
+    border-radius: 50%;
+    opacity: 0.3;
+    font-size: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    cursor: pointer;
+    
+}
+
+.btn p{
+    opacity: 1;
+}
+
+
+
+.welcome{
+    color: black;
+    height: 100px;
+    margin-top: 0px;
+    margin-left: 20px;
+    margin-right: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-left: 0px;
+    border-right: 0px;
+}
+
+.the-top-lines{
+    margin-left: 20px;
+    margin-right: 20px;
+ 
+}
+
+#the-top-line{
+    margin-top: 20px;
+
+}
+
+
+.brd-2{
+    height: 92%;
+   
+   
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    font-size: 30px;
+
+}
+
+.brd-2 span{
+    background-color: red;
+    color: white;
+}
+
+.albulm{
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    margin-top: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.box{
+    width: 27%;
+    background-color: black;
+}
+
+.the-title-alb{
+    width: 80%;
+    height: 40%;
+    margin: auto;
+    display: flex;
+    justify-content: start;
+    gap: 10px;
+   
+    
+}
+
+.the-title-alb img{
+    height: 25px;
+    width: 25px;
+    align-self: center;
+}
+
+.the-text-alb{
+    width: 80%;
+    
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+
+
+}
+
+.the-text-alb p{
+    margin-top: 0px;
+}
+
+#the-red{
+    background-color: red;
+}
+
+.late-arrivals{
+    font-size: 25px;
+    margin-left: 20px;
+    margin-left: 20px;
+    margin-top: 30px;
+    display: flex;
+    color: black;
+    align-items: center;
+}
+
+.the-arrival-late{
+    min-width: 360px;
+    
+}
+
+.the-arrival-late2{
+    min-width: 390px;
+    
+}
+
+.the-arrival-late3{
+    min-width: 440px;
+    
+}
+
+
+.l-arrivals-brd{
+    margin-right: 60px; 
+    width: 100%;
+    
+}
+
+.l-arrivals-brd2{
+    margin-right: 20px; 
+    width: 100%;
+    
+}
+
+.l-arrvals-brd2{
+    height: 3px;
+    width: 100%;
+    border: 0.25px solid black;
+    border-style: dotted;
+    border-right: 0px;
+    border-left: 0px;
+    border-top: 0px;
+}
+
+.imgs{
+    /*height: 450px;*/
+   /* width: 240px;*/
+    background-color: white;
+    margin-left: 20px;
+    margin-right: 20px;
+    color: black;
+
+}
+
+.the-act-img{
+    width: 100%;
+    height: 300px;
+    background-image: url("./Musica/oh-mydeer.png");
+    background-size: cover;
+
+}
+
+.description{
+    margin-left: 10px;
+}
+
+.the-title{
+    display: flex;
+    
+    gap: 20px;
+    height: 30px;
+}
+
+.checked {
+    color: orange;
+  }
+
+.the-starts{
+   
+    margin-top: 10px;
+
+
+  }
+
+.price-card{
+    margin-right: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.add-to-cart{
+    width: 35%;
+    height: 25px;
+    padding: 0;
+    background-color: black;
+    font-size: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    cursor: pointer;
+
+}
+
+.add-to-cart p{
+    color: white;
+    text-align: center;
+    font-size: 11px;
+}
+
+.add-to-cart:hover{
+
+    width: 35%;
+    height: 25px;
+    padding: 0;
+    background-color: red;
+    color: black;
+    font-size: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    cursor: pointer;
+
+
+}
+
+.libary{
+    display: flex;
+    justify-content: space-between;
+}
+
+.the-act-img2{
+    width: 100%;
+    height: 300px;
+    background-image: url("./Musica/three.png");
+    background-size: cover;
+
+}
+
+.the-act-img3{
+    width: 100%;
+    height: 300px;
+    background-image: url("./Musica/baddreams.png");
+    background-size: cover;
+
+}
+
+.the-act-img4{
+    width: 100%;
+    height: 300px;
+    background-image: url("./Musica/ravenna.png");
+    background-size: cover;
+
+}
+
+.the-act-img5{
+    width: 100%;
+    height: 300px;
+    background-image: url("./Musica/caribou.png");
+    background-size: cover;
+
+}
+
+.the-act-img6{
+    width: 100%;
+    height: 300px;
+    background-image: url("./Musica/mancoat.png");
+    background-size: cover;
+
+}
+
+.the-act-img7{
+    width: 100%;
+    height: 300px;
+    background-image: url("./Musica/ears.png");
+    background-size: cover;
+
+}
+
+.the-act-img8{
+    width: 100%;
+    height: 300px;
+    background-image: url("./Musica/grave.png");
+    background-size: cover;
+
+}
+
+
+
+
+.the-track{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0, 0, 0, 0.8);
+    color: white;
+    margin-top: 0;
+  
+}
+.track-items{
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    height: 10%;
+    width: 90%;
+    margin: auto;
+    border-bottom: 1px solid grey;
+}
+#the-first-p{
+    padding-top: 10px;
+}
+
+.l-arrivals-brd2{
+    justify-content: center;
+   
+    width: 100%;
+
+  /*  background-color: red;*/
+    
+
+   
+    
+}
+
+
+.padding1{
+
+    padding-bottom: 30px;
+
+}
+
+
+.the-logos{
+    margin-bottom: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer{
+   
+    margin:0px;
+    width: 100%;
+    background-color: black;
+    padding-top: 5px;
+    
+ 
+}
+
+.footer-wrapper{
+    background-color: #222;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 10px;
+    
+}
+
+
+.the-hr{
+    width: 200px;
+    height: 1px;
+}
+
+
+hr{
+  margin: 3px ;
+  border: 0px;
+  border:none;
+  border-top:1px dashed grey;
+  color:#fff;
+  width:100%;
+}
+
+.last-sec{
+    color: grey;
+    display: flex;
+    background-color: black;
+}
+
+.little-about-us{
+    padding-top: 10px;
+    padding-bottom: 15px;
+    width: 20%;
+    margin-left: 20px;
+
+  
+}
+
+.the-social-logos{
+    padding-top: 10px;
+
+}
+
+.little-about-us span{
+    font-weight: bold;
+    font-size: larger;
+}
+.the-titile-footer{
+    font-weight: bold;
+     font-size: 18px;
+}
+
+.our-archives{
+    margin-top: 12px;
+    width: 20%;
+   
+}
+
+.our-archives p{
+    width: 90%;
+    margin-top: 10%;
+    border-bottom: 0.25px solid white;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-style: dotted;
+    padding-bottom: 2px;
+}
+
+.popular-posts{
+    width: 300px;
+    margin-top: 12px;
+
+}
+
+.the-wrapper-pics{
+    display: flex;
+    margin-top: 15px;
+
+}
+
+.the-wrapper-pics2{
+    display: flex;
+    margin-top: 5px;
+
+}
+
+.the-img-canvas{
+    width: 50%;
+    height:100px;
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.the-img-actual{
+    width: 90%;
+    height: 90%;
+    background-image: url("./Musica/three.png");
+    background-size: cover;
+    
+}
+
+
+.the-img-actual2{
+    width: 90%;
+    height: 90%;
+    background-image: url("./Musica/baddreams.png");
+    background-size: cover;
+    
+}
+
+
+
+.the-com-icon{
+    height: 25%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.the-com-icon img{
+    width: 20px;
+    height: 20px;
+}
+
+.the-name{
+    height: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /**align-items: end;*/
+}
+
+.post-com{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    margin-left: 10px;
+}
+
+::placeholder {
+    color: gray;
+    opacity: 1; 
+    font-size: smaller;
+    padding-left: 5px;
+  }
+
+.search-wrapper{
+    margin: auto;
+    margin-top: 10px;
+    
+
+  }
+
+  input[type=text] {
+    color: grey;
+    padding-left: 10px;
+    font-size: larger;
+    height: 40px;
+    background-color: black;
+    box-sizing: border-box;
+    border: 0.1px solid gray;
+    outline: none;
+    margin-top: 15px;
+    margin-right: 20px;
+  
+  }
+
+  .the-input-sec{
+    margin-top: 12px;
+  }
+
+  .the-little-attri{
+    display: flex;
+    gap: 10px;
+    margin-left: 20px;
+  }
+
+  .copy-right{
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    margin-right: 20px;
+  }
+
+
+#elm{
+    cursor: pointer;
+    width: 162px;
+    height: 134px;
+}
+ 
